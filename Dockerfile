@@ -3,7 +3,7 @@ LABEL maintainer="AAMServices <info@aamservices.uk>"
 
 WORKDIR /usr/src/app
 
-COPY app/* /user/src/app
+COPY app/* /user/src/app/
 
 RUN npm install @feathersjs/cli -g && \
     cd feathersApp && \
