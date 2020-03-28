@@ -3,10 +3,10 @@ LABEL maintainer="AAMServices <info@aamservices.uk>"
 
 WORKDIR /usr/src/app
 
-COPY app/* /user/src/app/
+COPY app/* /usr/src/app/
 
 RUN npm install @feathersjs/cli -g && \
-    cd feathersApp && \
+    cd /usr/src/app/feathersApp && \
 	npm install
 
 EXPOSE 3030
