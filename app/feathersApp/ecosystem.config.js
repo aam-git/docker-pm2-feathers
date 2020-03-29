@@ -2,7 +2,7 @@
      apps: [
        {
          name: 'feathers',
-         cwd: '/usr/src/app/feathersApp/',
+         cwd: '/usr/src/app/',
          script: 'npm run dev',
          instances: 1,
          autorestart: true,
