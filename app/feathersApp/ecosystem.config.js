@@ -3,7 +3,7 @@
        {
          name: 'feathers',
          cwd: '/usr/src/app/',
-         script: 'npm run dev',
+         script: 'npm start',
          instances: 1,
 		     instance_var: 'INSTANCE_ID',
          autorestart: true,
