@@ -1,12 +1,11 @@
 FROM keymetrics/pm2:latest-slim
 LABEL maintainer="AAMServices <info@aamservices.uk>"
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/feathersApp
 
-COPY app/* /usr/src/app/
+COPY app/* /usr/src/app/feathersApp/
 
 RUN npm install @feathersjs/cli -g && \
-    cd /usr/src/app/feathersApp && \
 	npm install
 
 EXPOSE 3030
