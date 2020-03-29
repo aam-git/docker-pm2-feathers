@@ -8,18 +8,7 @@ powered by pm2:latest-slim image
 Instructions for Composer
 ========
 
-```
-1) choose one of the 3 versions below
-master - $ curl -sSL https://raw.githubusercontent.com/aam-git/docker-pm2-feathers/master/app/ecosystem.config.js > docker-compose.yml
-development - $ curl -sSL https://raw.githubusercontent.com/aam-git/docker-pm2-feathers/development/app/ecosystem.config.js > docker-compose.yml
-
-2) $ docker-compose up -d
-
-2) go to your web url (eg. http://127.0.0.1:3030)
-```
-
-
-Available tags you can use in docker compose (default master): master, minimal or caviar
+Available tags you can use in docker compose (default master): master or development
 
 ## docker-compose.yml
 
