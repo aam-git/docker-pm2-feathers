@@ -1,9 +1,9 @@
 FROM keymetrics/pm2:latest-slim
 LABEL maintainer="AAMServices <info@aamservices.uk>"
 
-WORKDIR /usr/src/app/feathersApp
+WORKDIR /usr/src/app
 
-COPY app/* /usr/src/app/feathersApp/
+COPY app/feathersApp/* /usr/src/app/
 
 RUN npm install @feathersjs/cli -g && \
 	npm install
